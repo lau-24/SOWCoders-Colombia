@@ -1,0 +1,255 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #7a65a2;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+}
+.look {
+  background-color: #fff;
+}
+.fiu {
+  background-color: #ff99db;
+}
+.segundo {
+  background-color: #ff99db;
+}
+.primero {
+  background-color: #fff;
+}
+nav {
+    justify-content: space-between;
+  align-items:center;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ff99db;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        background-color: #ff99db;
+        transition: 0.4s;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-links a {
+        font-size: 20px;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+}
+.raya {
+  background-color: #ff99db;
+}
+.logo {
+  width: 370px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+div {
+    margin-bottom: 20px;
+}
+.equipo {
+  background-color:#fff;
+}
+.taller {
+  background-color:#ff99db;
+}
+.taller > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contacto {
+  background-color: #fff;
+}
+.form-container {
+  background-color: #ff99db;
+}
+.copy {
+  background-color: #fff;
+}
+a {
+  color: #ff99db;
+ 
+}
+.inicio {
+  color: #ff99db;
+}
+form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+
+form label {
+  margin: 10px 0 5px;
+  align-self: flex-start;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+form button {
+  padding: 10px 20px;
+  background-color: #ff99db;
+  color:#0a0606;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+    padding: 2em 0;
+    margin-top: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

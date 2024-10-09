@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>SOWCoders Colombia</title>
+</head>
+
+<nav>
+  <div class="menu-icon" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+</nav>
+  <center><img src="logo.png" alt="Logo de la campaña" class="logo"></center>
+ <div class="raya"><ul id="nav-links" class="nav-links">
+    <li><a href="inde.html">Equipo de trabajo</a></li>
+    <li><a href="2.html">Talleres TechWomen</a></li>
+  </ul></div>
+  <script src="script.js"></script>
+
+<style>
+   .equipo, .taller, .contacto, .form-container, .copy
+    { 
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+  </style>
+
+<body>
+<div class="equipo">
+  <h2>¿Quienes somos?</h2>
+  <p>
+   SOWCoders Colombia es un club que busca apoyar los sueños de las jóvenes entre 12 y 19 años a través de la tecnología. Queremos crear un impacto en nuestra comunidad, en nuestro mundo, que inspire a los demás a luchar por sus sueños por muy imposible que parezcan. Nuestro objetivo principal es hacer llegar a las jóvenes nuestro conocimiento sobre tecnología y programación (HTML, Python, etc), capacitándolas para innovar este mundo o llegar a participar en eventos como Hackathon.
+  </p>
+</div>
+
+  <div class="taller">
+    <h2>Nuestros objetivos son:</h2>
+    
+    <div class="box">
+      <h3>Objetivo 1</h3>
+      <p>Lograran tener conocimientos básicos para la programación que les ayude a la creación <br>de las páginas web.</p>
+    </div>
+    <div class="box">
+      <h3>Objetivo 2</h3>
+      <p>Acabar con el ideal equivocado de que "las mujeres no tienen un espacio en este mundo <br>de la tecnología, la promagramación, etc.</p>
+    </div>
+    <div class="box">
+      <h3>Objetivo 3</h3>
+      <p>Llevar a las mujeres y jóvenes no sólo un aprendizaje, sino un mensaje de aliento y <br>motivación a cumplir sus sueños y demostrar que somos capaces de cambiar el mundo.</p>
+    </div>
+    
+  </div>
+<div class="contacto">
+  <h2>Nosotras</h2>
+  <p>
+    Somos un club que quiere ayudar a las jóvenes a salir adelante, a obtener un conocimiento que tal vez no adquirimos en la escuela y puede ayudarnos a encontrar grandes oportunidades que nos harán crear un mundo mejor lleno de posibilidades para todos, incluso para quienes tienen pocos recursos pero un gran potencial que debe ser mostrado al mundo. <br> Ayúdanos en esta gran iniciativa y así podremos cambiar la vida de muchos jóvenes. <br> ¡Sé parte de esto!
+  </p>
+</div>
+
+  <div class="form-container">
+      <h2>¡Cuéntanos tus ideas y aportes a esta gran iniciativa!</h2>
+    <p>Pueden contactarnos a nuestro correo sowcoders.colombia@gmail.com</p>
+      <form action="https://formsubmit.co/sowcoders.colombia@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.google.com/">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+       <br>
+        <label for="message">Tu idea o comentario:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+        <audio id="submit-sound" src="submit-sound.mp3"></audio>
+        <script>
+          const submitButton = document.querySelector('button[type="submit"]');
+          const submitSound = document.getElementById('submit-sound');
+
+          submitButton.addEventListener('click', () => {
+            submitSound.play();
+          });
+        </script>
+      </form>
+    </div>
+<br>
+    <div class="copy" <footer>
+      <center>
+        <p>Derechos de autor &copy; 2024 Puerto Colombia. Todos los derechos reservados.
+        </p>
+        <br>
+        <a href="https://www.instagram.com/sowcoders_colombia/" target="_blank">
+          <img src="instagram-logo.png" alt="Instagram Logo" width="30" height="30">
+        </a>
+        <a href="https://www.linkedin.com/company/sowcoders-colombia/about/?viewAsMember=true">
+          <img src="linkedin.png" alt="LinkedIn Logo" width="30" height="30">
+        </a>
+      </center>
+      </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+
+
+
+
+
+
+
+
+
+  
+
+</html>
